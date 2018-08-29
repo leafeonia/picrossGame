@@ -1,0 +1,3 @@
+Mainwindow.qrc|"E:\qt\mypicross\mypicross\Mainwindow.qrc" -o ".\GeneratedFiles\qrc_Mainwindow.cpp" --name Mainwindow
+Mainwindow.h|"E:\qt\mypicross\mypicross\Mainwindow.h" -o ".\GeneratedFiles\Debug\moc_Mainwindow.cpp" "-I.\GeneratedFiles" "-I." "-IE:\Instruments\qtt\qt\5.10.0\msvc2015_64\include" "-I.\GeneratedFiles\Debug" "-IE:\Instruments\qtt\qt\5.10.0\msvc2015_64\include\QtCore" "-IE:\Instruments\qtt\qt\5.10.0\msvc2015_64\include\QtGui" "-IE:\Instruments\qtt\qt\5.10.0\msvc2015_64\include\QtANGLE" "-IE:\Instruments\qtt\qt\5.10.0\msvc2015_64\include\QtWidgets" -DUNICODE -D_UNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+Mainwindow.ui|"E:\qt\mypicross\mypicross\Mainwindow.ui" -o ".\GeneratedFiles\ui_Mainwindow.h"
