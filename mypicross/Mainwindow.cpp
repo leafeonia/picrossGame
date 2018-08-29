@@ -127,6 +127,7 @@ void Mainwindow::start() {
 	timer->start(1000);
 	//设置底图
 	if (!filePath.length()) src = imread("default.jpg"); //使用默认图片
+	else src = imread(filePath.toStdString());
 	if (src.cols < 500 || src.rows < 500) {  //放大尺寸小于500*500的图片
 		double coeff = 500.0 / min(src.cols, src.rows);
 		cv::resize(src, src, Size(src.cols*coeff, src.rows*coeff));
@@ -180,7 +181,7 @@ void Mainwindow::start() {
 
 void Mainwindow::loadImg() {
 	filePath = QFileDialog::getOpenFileName(this, "选择图片");
-	src = imread(filePath.toStdString());
+	//src = imread(filePath.toStdString());
 	for (int i = 0; i < 10; i++)
 	{
 		for (int j = 0; j < 10; j++)
