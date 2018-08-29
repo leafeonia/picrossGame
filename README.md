@@ -1,2 +1,2 @@
 # picrossGame
-![image](https://https://github.com/NJULeafeon/picrossGame/edit/master/demo.png)
+![image](https://github.com/NJULeafeon/picrossGame/demo.png)
